@@ -1,0 +1,199 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.txtAnimation::after {
+  content: "|";
+  animation: 8s textAnimation infinite;
+  -webkit-animation: 8s textAnimation infinite;
+  font-weight: normal;
+}
+
+.txtAnimation {
+  font-size: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .txtAnimation {
+    font-size: 28px;
+  }
+}
+
+@keyframes textAnimation {
+  1.4% {
+    content: "A|";
+  }
+  3.4% {
+    content: "Ah|";
+  }
+  5.1% {
+    content: "Ahm|";
+  }
+  6.8% {
+    content: "Ahme|";
+  }
+  8.5% {
+    content: "Ahmed|";
+  }
+  10.2% {
+    content: "Ahmed |";
+  }
+  11.9% {
+    content: "Ahmed E|";
+  }
+  13.6% {
+    content: "Ahmed Ek|";
+  }
+  15.3% {
+    content: "Ahmed Ekr|";
+  }
+  18.7% {
+    content: "Ahmed Ekra|";
+  }
+  20.4% {
+    content: "Ahmed Ekram|";
+  }
+  22.1% {
+    content: "Ahmed Ekramy|";
+  }
+  23.8% {
+    content: "Ahmed Ekram|";
+  }
+  25.5% {
+    content: "Ahmed Ekra|";
+  }
+  27.2% {
+    content: "Ahmed Ekr|";
+  }
+  28.9% {
+    content: "Ahmed Ek|";
+  }
+  30.6% {
+    content: "Ahmed E|";
+  }
+  32.3% {
+    content: "Ahmed |";
+  }
+  34% {
+    content: "Ahmed|";
+  }
+  35.7% {
+    content: "Ahme|";
+  }
+  37.4% {
+    content: "Ahm|";
+  }
+  40.8% {
+    content: "Ah|";
+  }
+  42.5% {
+    content: "A|";
+  }
+  44.2% {
+    content: "|";
+  }
+  45.9% {
+    content: "D|";
+  }
+  47.6% {
+    content: "De|";
+  }
+  49.3% {
+    content: "Dev|";
+  }
+  51% {
+    content: "Deve|";
+  }
+  52.7% {
+    content: "Devel|";
+  }
+  54.4% {
+    content: "Develo|";
+  }
+  56.1% {
+    content: "Develop|";
+  }
+  57.8% {
+    content: "Develope|";
+  }
+  61.2% {
+    content: "Developer|";
+  }
+  62.9% {
+    content: "Develope|";
+  }
+  64.6% {
+    content: "Develop|";
+  }
+  66.3% {
+    content: "Develo|";
+  }
+  68% {
+    content: "Devel|";
+  }
+  69.7% {
+    content: "Deve|";
+  }
+  71.4% {
+    content: "Dev|";
+  }
+  73.1% {
+    content: "De|";
+  }
+  74.8% {
+    content: "D|";
+  }
+  76.5% {
+    content: "|";
+  }
+  78.2% {
+    content: "D|";
+  }
+  79.9% {
+    content: "De|";
+  }
+  81.6% {
+    content: "Des|";
+  }
+  83.3% {
+    content: "Desi|";
+  }
+  85% {
+    content: "Desig|";
+  }
+  86.7% {
+    content: "Design|";
+  }
+  88.4% {
+    content: "Designe|";
+  }
+  90.1% {
+    content: "Designer|";
+  }
+  91.3% {
+    content: "Designe|";
+  }
+  92.5% {
+    content: "Design|";
+  }
+  93.7% {
+    content: "Desig|";
+  }
+  94.9% {
+    content: "Desi|";
+  }
+  96.1% {
+    content: "Des|";
+  }
+  97.3% {
+    content: "De|";
+  }
+  98.5% {
+    content: "D|";
+  }
+  100% {
+    content: "|";
+  }
+}
