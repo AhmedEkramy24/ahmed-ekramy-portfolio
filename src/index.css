@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .active {
-  @apply text-white bg-blue-700 md:rounded-lg rounded-md;
+  @apply text-blue-700;
 }
 
 .num {
@@ -27,7 +27,7 @@
   height: 0;
   border: solid 7px black;
   border-color: black transparent transparent transparent;
-  bottom: -14px;
+  bottom: -13px;
   left: 50%;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);

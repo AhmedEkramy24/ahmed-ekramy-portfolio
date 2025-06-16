@@ -13,7 +13,7 @@ import tailwind from "../../assets/skills/Tailwind CSS.png";
 export default function Skills() {
   return (
     <>
-      <h1 className="text-center mt-10 text-blue-700 md:text-5xl text-4xl font-bold">
+      <h1 className="text-center mt-16 text-blue-700 md:text-5xl text-4xl font-bold">
         MY SKILLS
       </h1>
       <div className="container p-2 flex flex-wrap">
@@ -61,8 +61,8 @@ export default function Skills() {
             <img src={github} alt="js" className="w-[30px]" />
           </h3>
           <div className="bg-slate-300 rounded-md ">
-            <div className="py-3 bg-blue-700 w-[80%] relative rounded-md">
-              <span className="num right-0 translate-x-4">80%</span>
+            <div className="py-3 bg-blue-700 w-[85%] relative rounded-md">
+              <span className="num right-0 translate-x-4">85%</span>
             </div>
           </div>
         </div>
@@ -109,8 +109,8 @@ export default function Skills() {
             <img src={typescript} alt="next" className="w-[30px]" />
           </h3>
           <div className="bg-slate-300 rounded-md ">
-            <div className="py-3 bg-blue-700 w-[75%] relative rounded-md">
-              <span className="num right-0 translate-x-4">75%</span>
+            <div className="py-3 bg-blue-700 w-[80%] relative rounded-md">
+              <span className="num right-0 translate-x-4">80%</span>
             </div>
           </div>
         </div>
@@ -121,8 +121,8 @@ export default function Skills() {
             <img src={next} alt="next" className="w-[30px]" />
           </h3>
           <div className="bg-slate-300 rounded-md ">
-            <div className="py-3 bg-blue-700 w-[70%] relative rounded-md">
-              <span className="num right-0 translate-x-4">70%</span>
+            <div className="py-3 bg-blue-700 w-[80%] relative rounded-md">
+              <span className="num right-0 translate-x-4">80%</span>
             </div>
           </div>
         </div>

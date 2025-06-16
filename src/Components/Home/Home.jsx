@@ -1,21 +1,19 @@
-import React from "react";
 import whatsapp from "../../assets/whatsapp.png";
 import github from "../../assets/github.png";
 import linkedin from "../../assets/linkedin.png";
-import facebook from "../../assets/facebook.png";
 import gmail from "../../assets/gmail.png";
 import ahmed from "../../assets/ahmed.jpg";
-import cv from "../../assets/Ahmed-Ekramy-CV.pdf";
+import cv from "../../assets/💼 Front-end Developer CV – Ahmed Ekramy.pdf";
 
 export default function Home() {
   return (
     <>
-      <div className="container flex gap-12 mt-32 items-center md:flex-row flex-col p-4 justify-center">
-        <div className="img md:w-1/3 overflow-hidden rounded-full">
+      <div className="container flex gap-12 mt-10 items-center md:flex-row flex-col p-4 justify-center">
+        <div className="img md:w-1/3 w-10/12 overflow-hidden rounded-full">
           <img src={ahmed} alt="ahmed's photo w-full" />
         </div>
-        <div className="md:w-1/2   space-y-4 md:text-start text-center ">
-          <h1 className="md:text-6xl text-3xl font-bold text-blue-700 ">
+        <div className="md:w-1/2   space-y-2 md:text-start text-center ">
+          <h1 className="md:text-5xl text-2xl font-bold text-blue-700 ">
             Hello
           </h1>
           <h1 className="txtAnimation text-nowrap ">I AM </h1>
@@ -29,12 +27,7 @@ export default function Home() {
             >
               <img src={linkedin} alt="linkedin account" className="w-[40px]" />
             </a>
-            <a
-              href="https://www.facebook.com/profile.php?id=61561069456007"
-              target="_blank"
-            >
-              <img src={facebook} alt="facebook account" className="w-[40px]" />
-            </a>
+
             <a href="https://wa.me/+201147999625" target="_blank">
               <img src={whatsapp} alt="whatsapp account" className="w-[40px]" />
             </a>

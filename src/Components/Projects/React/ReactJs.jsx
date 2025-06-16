@@ -2,18 +2,39 @@ import React from "react";
 import freshCart from "../../../assets/projects/freshCart.png";
 import SPA from "../../../assets/projects/SPA.png";
 import note from "../../../assets/projects/note.png";
+import social from "../../../assets/projects/social.png";
 import react from "../../../assets/skills/react.png";
 
 export default function ReactJs() {
   return (
     <>
       <div>
-        <h2 className=" mt-10 text-3xl font-bold flex gap-3 items-center">
-          <i className="fa-solid fa-circle-arrow-right text-blue-700 me-3"></i>
+        <h2 className="text-3xl font-bold flex gap-3 ">
+          <i className="fa-solid fa-circle-arrow-right text-blue-700 mt-2 me-1"></i>
           react.js
           <img src={react} alt="react" className="w-10" />
         </h2>
         <div className="flex mt-5 justify-around  flex-wrap">
+          <div className="lg:w-1/3 p-4">
+            <a
+              href="https://ahmedekramy24.github.io/social-media-react/"
+              target="_blank"
+            >
+              <div className=" overflow-hidden rounded-lg border relative group border-slate-300 hover:border-blue-500 cursor-pointer">
+                <img src={social} alt="freshCart" className="w-full" />
+                <div className="p-2 border-t border-slate-300">
+                  <h3 className="text-blue-700 font-bold">Social Media App</h3>
+                  <p className="text-slate-700">
+                    Create, edit and delete posts and comments | using
+                    TypeScript
+                  </p>
+                </div>
+                <span className="size-7 -bottom-5 -right-5 opacity-0 group-hover:bottom-1 duration-300 group-hover:right-1 group-hover:opacity-100 grou rounded-md bg-blue-700 text-white flex justify-center items-center absolute">
+                  <i className="fa-solid fa-link"></i>
+                </span>
+              </div>
+            </a>
+          </div>
           <div className="lg:w-1/3 p-4">
             <a
               href="https://ahmedekramy24.github.io/FreshCart-E-commerce-app/"
