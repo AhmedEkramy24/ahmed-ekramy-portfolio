@@ -8,11 +8,11 @@ import cv from "../../assets/💼 Front-end Developer CV – Ahmed Ekramy.pdf";
 export default function Home() {
   return (
     <>
-      <div className="container flex gap-12 mt-10 items-center md:flex-row flex-col p-4 justify-center">
+      <div className="container  flex gap-12 mt-16 items-center md:flex-row flex-col p-4 justify-center">
         <div className="img md:w-1/3 w-10/12 overflow-hidden rounded-full">
           <img src={ahmed} alt="ahmed's photo w-full" />
         </div>
-        <div className="md:w-1/2   space-y-2 md:text-start text-center ">
+        <div className="md:w-2/5   space-y-2 md:text-start text-center ">
           <h1 className="md:text-5xl text-2xl font-bold text-blue-700 ">
             Hello
           </h1>
